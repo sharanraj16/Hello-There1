@@ -1,5 +1,17 @@
+/* Avatar.module.css */
 .Avatar {
-    border-radius: 50%;
-    margin: 0px 8px 0px 8px;
-    object-fit: cover;
-  }
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Text {
+  font-size: 0.9rem;
+}
